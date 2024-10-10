@@ -4,18 +4,20 @@
 
 .services {
     margin-top: 5rem;
-    margin-left: 5rem;
-    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .trois_services {
     display: flex;
+    margin-top: 1rem;
 }
 
 .egypte {
     background-image: url(../img/homme-assis-batiment.jpg);
-    width: 50%;
-    height: 25rem;
+    width: 600px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -23,5 +25,146 @@
     justify-content: center;
     flex-direction: column;
     color: v.$blanc;
+    border-radius: 20px;
+    filter: brightness(70%);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
+.egypte a {
+    color: v.$blanc;
+}
+
+.egypte a:hover {
+    color: v.$noir;
+}
+
+.trait {
+    color: v.$bannercolor;
+}
+
+.passport {
+    background-image: url(../img/passport.jpg);
+    width: 600px;
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: v.$blanc;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    filter: brightness(70%);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.passport a {
+    color: v.$blanc;
+}
+
+.passport a:hover {
+    color: v.$noir;
+}
+
+.mongolfiere {
+    background-image: url(../img/montgolfiere.jpg);
+    width: 600px;
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: v.$blanc;
+    border-radius: 20px;
+    filter: brightness(70%);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.mongolfiere a {
+    color: v.$blanc;
+}
+
+.mongolfiere a:hover {
+    color: v.$noir;
+}
+
+.pass_mongol {
+    margin-left: 1rem;
+
+}
+
+////////// Features //////////
+
+.features {
+    background-image: url(../img/wave.svg);
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+main h2:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5rem;
+    margin-right: 4rem;
+}
+
+.id {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 14rem;
+}
+.bus {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 14rem;  
+}
+.lit {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 14rem;  
+}
+
+.features div i {
+    color: v.$bannercolor;
+    font-size: 60px;
+    margin-bottom: 2rem;
+}
+
+.features div h4 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+////////// GET IN TOUCH //////////
+
+.lorem {
+    background-color: v.$bannercolor;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.lorem h5 {
+    font-size: 30px;
+    margin-left: 3rem;
+    margin-top: 10rem;
+}
+
+// .amet {
+//     display: block;
+// }
 
