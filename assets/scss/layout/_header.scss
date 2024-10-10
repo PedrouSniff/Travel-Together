@@ -1,0 +1,97 @@
+@use "../abstract/mixin.scss" as m;
+@use "../abstract/variable" as v;
+
+////////// Navigation //////////
+
+nav ul li a {
+    @include m.nav(grey)
+}
+
+.agency {
+    color: v.$noir;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 5rem;
+}
+
+nav ul li {
+    margin-right: 3rem;
+}
+
+nav img {
+    width: 10rem;
+    margin-left: 5rem;
+}
+
+nav ul li a:hover {
+    font-weight: 900;
+}
+
+////////// Bannière //////////
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.bannière {
+    background-color: v.$bannercolor;
+    border-radius: 25px;
+    width: 75rem;
+    height: 26rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden
+}
+
+.bannière div p {
+    @include m.texte(v.$blanc);
+    width: 40rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 15px;
+}
+
+.bannière div {
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+.bannière div h1 {
+    color: v.$blanc;
+    width: 40rem;
+    font-size: 40px;
+}
+
+.bannière div a{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    color: v.$noir;
+    font-weight: 700;
+    background-color: v.$blanc;
+}
+
+.bannière div a:hover {
+    background-color: v.$noir;
+    color: v.$blanc;
+}
+
+.bannière img {
+    position: absolute;
+    width: 15rem;
+    height: 30rem;
+    right: 7rem;
+    top: 6rem;
+}

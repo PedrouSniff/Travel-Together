@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "lato_regular";
+  src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "lato_bold";
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "lato_light";
+  src: url("../fonts/Lato-Light.ttf");
+}
+body {
+  font-family: "lato_regular", sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+nav ul li a {
+  color: grey;
+}
+
+.agency {
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 5rem;
+}
+
+nav ul li {
+  margin-right: 3rem;
+}
+
+nav img {
+  width: 10rem;
+  margin-left: 5rem;
+}
+
+nav ul li a:hover {
+  font-weight: 900;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.bannière {
+  background-color: #E7816B;
+  border-radius: 25px;
+  width: 75rem;
+  height: 26rem;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.bannière div p {
+  color: white;
+  width: 40rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 15px;
+}
+
+.bannière div {
+  margin-left: 4rem;
+  margin-top: 5rem;
+}
+
+.bannière div h1 {
+  color: white;
+  width: 40rem;
+  font-size: 40px;
+}
+
+.bannière div a {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+}
+
+.bannière div a:hover {
+  background-color: black;
+  color: white;
+}
+
+.bannière img {
+  position: absolute;
+  width: 15rem;
+  height: 30rem;
+  right: 7rem;
+  top: 6rem;
+}
+
+.services {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 10rem;
+}
+
+.trois_services {
+  display: flex;
+}
+
+.egypte {
+  background-image: url(../img/homme-assis-batiment.jpg);
+  width: 50%;
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

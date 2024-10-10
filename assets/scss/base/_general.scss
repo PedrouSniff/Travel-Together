@@ -1,0 +1,16 @@
+@use "../abstract/variable" as v;
+@use "../base/font";
+
+body {
+    font-family: "lato_regular", sans-serif;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
