@@ -45,20 +45,20 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 nav ul {
   display: flex;
-  margin-right: 5rem;
 }
 
 nav ul li {
-  margin-right: 3rem;
+  margin-left: 4rem;
 }
 
 nav img {
   width: 10rem;
-  margin-left: 5rem;
 }
 
 nav ul li a:hover {
@@ -68,26 +68,31 @@ nav ul li a:hover {
 .banner {
   display: flex;
   justify-content: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .bannière {
   background-color: #E7816B;
   border-radius: 25px;
-  width: 75rem;
-  height: 26rem;
+  width: 100%;
+  padding-bottom: 5rem;
   margin-top: 4rem;
-  display: flex;
-  justify-content: space-between;
   position: relative;
   overflow: hidden;
 }
 
+.texte_banniere {
+  max-width: 700px;
+}
+
 .bannière div p {
   color: white;
-  width: 40rem;
+  max-width: 40rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 15px;
+  height: auto;
 }
 
 .bannière div {
@@ -117,18 +122,22 @@ nav ul li a:hover {
 
 .bannière img {
   position: absolute;
+  max-height: 70vh;
+  min-height: 200px;
+  right: 10%;
+  bottom: -8rem;
   width: 15rem;
-  height: 30rem;
-  right: 7rem;
-  top: 6rem;
 }
 
 .services {
-  margin-top: 5rem;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.services h2 {
+  margin-top: 5rem;
 }
 
 .trois_services {
@@ -138,7 +147,8 @@ nav ul li a:hover {
 
 .egypte {
   background-image: url(../img/homme-assis-batiment.jpg);
-  width: 600px;
+  width: 50%;
+  height: 30rem;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -165,8 +175,8 @@ nav ul li a:hover {
 
 .passport {
   background-image: url(../img/passport.jpg);
-  width: 600px;
-  height: 12rem;
+  width: 103vh;
+  height: 48%;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -190,8 +200,8 @@ nav ul li a:hover {
 
 .mongolfiere {
   background-image: url(../img/montgolfiere.jpg);
-  width: 600px;
-  height: 12rem;
+  width: 100%;
+  height: 49%;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -218,19 +228,22 @@ nav ul li a:hover {
 
 .features {
   background-image: url(../img/wave.svg);
+  background-size: cover;
+  background-position: center;
   padding-bottom: 10rem;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 
 main h2:nth-child(2) {
   display: flex;
   justify-content: flex-end;
   margin-top: 5rem;
-  margin-right: 4rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 
 .id {
@@ -270,14 +283,138 @@ main h2:nth-child(2) {
 
 .lorem {
   background-color: #E7816B;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+  border-radius: 20px;
+  transform: translateY(-6rem);
+}
+
+.back_lorem {
+  background-color: rgb(34, 34, 31);
+  height: 15rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .lorem h5 {
   font-size: 30px;
   margin-left: 3rem;
-  margin-top: 10rem;
+  padding-top: 4rem;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.amet {
+  display: block;
+}
+
+.lorem p {
+  margin-left: 3rem;
+  color: white;
+}
+
+.button_lorem {
+  margin-top: 5rem;
+  margin-right: 10rem;
+}
+
+.button_lorem a {
+  color: black;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.button_lorem a:hover {
+  color: white;
+  background-color: black;
+}
+
+.footer_haut {
+  background-color: rgb(34, 34, 31);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.footer_haut a img {
+  width: 12rem;
+}
+
+.footer_haut ul {
+  display: flex;
+}
+
+.footer_haut ul li a {
+  color: white;
+  margin-left: 1rem;
+}
+
+.footer_haut ul li a:hover {
+  font-weight: 900;
+}
+
+.trait_f {
+  background-color: rgb(34, 34, 31);
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.trait_footer {
+  width: 100%;
+  border: solid grey 1px;
+  background-color: rgb(34, 34, 31);
+}
+
+.footer_travel {
+  background-color: rgb(34, 34, 31);
+  display: flex;
+  padding-bottom: 3rem;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.location_contact {
+  display: flex;
+  margin-top: 3rem;
+  color: grey;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.location p:nth-child(1) {
+  color: white;
+}
+
+.contact p:nth-child(1) {
+  color: white;
+}
+
+.location {
+  margin-right: 15rem;
+}
+
+.reseaux {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.lien_reseaux a {
+  margin-left: 1rem;
+  font-size: 30px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

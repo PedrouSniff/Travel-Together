@@ -1,2 +1,87 @@
 @use "../abstract/variable" as v;
+@use "../abstract/mixin" as m;
+
+////////// Footer //////////
+
+.footer_haut {
+    background-color: v.$footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.footer_haut a img {
+    width: 12rem;
+}
+
+.footer_haut ul{
+    display: flex;
+}
+
+.footer_haut ul li a {
+    color: v.$blanc;
+    margin-left: 1rem;
+}
+
+.footer_haut ul li a:hover {
+    font-weight: 900;
+}
+
+.trait_f {
+    background-color: v.$footer;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.trait_footer {
+    width: 100%;
+    border:solid grey 1px;
+    background-color: v.$footer;
+}
+
+.footer_travel {
+    background-color: v.$footer;
+    display: flex;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.location_contact {
+    display: flex;
+    margin-top: 3rem;
+    @include m.nav(grey)
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.location p:nth-child(1) {
+    color: v.$blanc;
+}
+
+.contact p:nth-child(1) {
+    color: v.$blanc;
+}
+
+.location {
+    margin-right: 15rem;
+}
+
+.reseaux {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.lien_reseaux a {
+    margin-left: 1rem;
+    font-size: 30px;
+    color: white;
+}
 

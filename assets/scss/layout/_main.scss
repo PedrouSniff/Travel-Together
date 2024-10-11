@@ -3,12 +3,16 @@
 ////////// Services //////////
 
 .services {
-    margin-top: 5rem;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
+
+.services h2 {
+    margin-top: 5rem;
+}
+
 
 .trois_services {
     display: flex;
@@ -17,7 +21,8 @@
 
 .egypte {
     background-image: url(../img/homme-assis-batiment.jpg);
-    width: 600px;
+    width: 50%;
+    height: 30rem;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -44,8 +49,8 @@
 
 .passport {
     background-image: url(../img/passport.jpg);
-    width: 600px;
-    height: 12rem;
+    width: 103vh;
+    height: 48%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -70,8 +75,8 @@
 
 .mongolfiere {
     background-image: url(../img/montgolfiere.jpg);
-    width: 600px;
-    height: 12rem;
+    width: 100%;
+    height: 49%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -102,19 +107,22 @@
 
 .features {
     background-image: url(../img/wave.svg);
+    background-size: cover;
+    background-position: center;
     padding-bottom: 10rem;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
-    padding-top: 10rem;
+    padding-top: 6rem;
 }
 
 main h2:nth-child(2) {
     display: flex;
     justify-content: flex-end;
     margin-top: 5rem;
-    margin-right: 4rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
 }
 
 .id {
@@ -154,17 +162,54 @@ main h2:nth-child(2) {
 
 .lorem {
     background-color: v.$bannercolor;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    border-radius: 20px;
+    transform: translateY(-6rem);
+}
+
+.back_lorem {
+    background-color: v.$footer;
+    height: 15rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .lorem h5 {
     font-size: 30px;
     margin-left: 3rem;
-    margin-top: 10rem;
+    padding-top: 4rem;
+    color:  v.$blanc;
+    font-weight: 500;
+    margin-bottom: 1rem;
 }
 
-// .amet {
-//     display: block;
-// }
+.amet {
+    display: block;
+}
 
+.lorem p {
+    margin-left: 3rem;
+    color: v.$blanc;
+}
+
+.button_lorem {
+    margin-top: 5rem;
+    margin-right: 10rem;
+}
+
+.button_lorem  a{
+    color: v.$noir;
+    background-color: v.$blanc;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.button_lorem  a:hover{
+    color: v.$blanc;
+    background-color: v.$noir;
+}

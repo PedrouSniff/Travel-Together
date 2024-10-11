@@ -16,20 +16,20 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 nav ul {
     display: flex;
-    margin-right: 5rem;
 }
 
 nav ul li {
-    margin-right: 3rem;
+    margin-left:4rem;
 }
 
 nav img {
     width: 10rem;
-    margin-left: 5rem;
 }
 
 nav ul li a:hover {
@@ -41,26 +41,31 @@ nav ul li a:hover {
 .banner {
     display: flex;
     justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .bannière {
     background-color: v.$bannercolor;
     border-radius: 25px;
-    width: 75rem;
-    height: 26rem;
+    width: 100%;
+    padding-bottom: 5rem;
     margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
     position: relative;
     overflow: hidden
 }
 
+.texte_banniere {
+    max-width: 700px;
+}
+
 .bannière div p {
     @include m.texte(v.$blanc);
-    width: 40rem;
+    max-width: 40rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 15px;
+    height: auto;
 }
 
 .bannière div {
@@ -90,8 +95,9 @@ nav ul li a:hover {
 
 .bannière img {
     position: absolute;
+    max-height: 70vh;
+    min-height: 200px;
+    right: 10%;
+    bottom: -8rem;
     width: 15rem;
-    height: 30rem;
-    right: 7rem;
-    top: 6rem;
 }
