@@ -18,7 +18,9 @@ nav {
     margin-top: 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
+    position:relative;
 }
+
 
 nav ul {
     display: flex;
@@ -52,7 +54,8 @@ nav ul li a:hover {
     padding-bottom: 5rem;
     margin-top: 4rem;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    padding-right: 40%;
 }
 
 .texte_banniere {
