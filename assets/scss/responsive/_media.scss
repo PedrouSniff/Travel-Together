@@ -180,9 +180,19 @@
      }
 
      .banner {
-         padding-left: 1rem;
-         padding-right: 1rem;
          margin-top: 7rem;
+         padding: 0rem;
+     }
+
+     .bannière {
+         padding-right: 0%;
+     }
+
+     .texte_banniere {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
      }
 
      .bannière img {
@@ -190,28 +200,121 @@
      }
 
      .texte_banniere h1 {
-         max-width: none;
          width: auto;
          height: auto;
      }
 
      .bannière div p {
-         max-width: none;
-         width: 500px;
          height:auto;
+         width: 300px;
+     }
+
+     .services {
+         padding: 0rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+     }
+
+     .services h2 {
+         font-size: 70px;
+         margin: 0rem;
      }
 
      .trois_services {
          flex-direction: column;
+         width: 100%;
      }
 
      .egypte {
          width: 100%;
-         margin-left: 1rem;
      }
 
+     .passport {
+         width: 200%;
+         height: 30rem;
+     }
 
+     .mongolfiere {
+         width: 200%;
+         height: 30rem;
+     }
+
+     .pass_mongol {
+         margin: 0rem;
+     }
+
+     .features {
+         flex-direction: column;
+         padding-top: 3rem;
+     }
+
+     .lit {
+         width: 80%;
+     }
+
+     .bus {
+         width: 80%;
+     }
+
+     .id {
+         width: 80%;
+     }
+
+     .lorem {
+         flex-direction: column;
+     }
+
+     .lorem h5 {
+         margin: 0rem;
+     }
+
+     .lorem p {
+         margin: 0rem;
+     }
+
+     .button_lorem {
+         margin: 1rem;
+     }
+
+     .footer_haut {
+         flex-direction: column;
+     }
+
+     .footer_haut ul {
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .footer_haut li {
+         margin-top: 1rem;
+     }
+
+     .back_lorem {
+         padding: 0rem;
+     }
+
+     main h2:nth-child(2) {
+         padding: 0rem;
+         justify-content: center;
+         font-size: 70px;
+         margin: 0rem;
+     }
+
+     main {
+         margin-left: 1rem;
+         margin-right: 1rem;
+     }
+
+     header {
+        margin-left: 1rem;
+        margin-right: 1rem;
+     }
  }
+
+
 
 
 
