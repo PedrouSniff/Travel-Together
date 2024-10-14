@@ -47,6 +47,7 @@
 
 .egypte a:hover {
     color: v.$noir;
+    transition: 0,5s ease;
 }
 
 .trait {
@@ -82,6 +83,7 @@
 
 .passport a:hover {
     color: v.$noir;
+    transition: 0,5s ease;
 }
 
 .mongolfiere {
@@ -112,6 +114,7 @@
 
 .mongolfiere a:hover {
     color: v.$noir;
+    transition: 0,5s ease;
 }
 
 .pass_mongol {
@@ -234,4 +237,5 @@ main h2:nth-child(2) {
 .button_lorem:hover{
     color: v.$blanc;
     background-color: v.$noir;
+    transition: 1s ease;
 }

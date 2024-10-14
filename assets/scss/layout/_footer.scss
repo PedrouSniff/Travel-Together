@@ -32,6 +32,7 @@
 
 .footer_haut ul li a:hover {
     font-weight: 900;
+    transition: 0,5s ease;
 }
 
 .trait_f {
@@ -80,5 +81,10 @@ footer p {
     margin-left: 1rem;
     font-size: 30px;
     color: white;
+}
+
+.lien_reseaux a:hover {
+    transition: 0.7s ease;
+    color: v.$bannercolor
 }
 

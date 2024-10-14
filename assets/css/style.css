@@ -64,6 +64,7 @@ nav img {
 
 nav ul li a:hover {
   font-weight: 900;
+  transition: 0, 5s ease;
 }
 
 .banner {
@@ -120,6 +121,7 @@ nav ul li a:hover {
 .bannière div a:hover {
   background-color: black;
   color: white;
+  transition: 1s ease;
 }
 
 .bannière img {
@@ -175,6 +177,7 @@ nav ul li a:hover {
 
 .egypte a:hover {
   color: black;
+  transition: 0, 5s ease;
 }
 
 .trait {
@@ -210,6 +213,7 @@ nav ul li a:hover {
 
 .passport a:hover {
   color: black;
+  transition: 0, 5s ease;
 }
 
 .mongolfiere {
@@ -240,6 +244,7 @@ nav ul li a:hover {
 
 .mongolfiere a:hover {
   color: black;
+  transition: 0, 5s ease;
 }
 
 .pass_mongol {
@@ -359,6 +364,7 @@ main h2:nth-child(2) {
 .button_lorem:hover {
   color: white;
   background-color: black;
+  transition: 1s ease;
 }
 
 .footer_haut {
@@ -390,6 +396,7 @@ main h2:nth-child(2) {
 
 .footer_haut ul li a:hover {
   font-weight: 900;
+  transition: 0, 5s ease;
 }
 
 .trait_f {
@@ -437,6 +444,11 @@ footer p {
   margin-left: 1rem;
   font-size: 30px;
   color: white;
+}
+
+.lien_reseaux a:hover {
+  transition: 0.7s ease;
+  color: #E7816B;
 }
 
 @media screen and (max-width: 1300px) {
